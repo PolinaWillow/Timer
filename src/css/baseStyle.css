@@ -1,0 +1,101 @@
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Container {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bText{
+    font-family: "Century Gothic";
+}
+.bTitle{
+    margin-bottom: 14%;
+    margin-left: 2%;
+    padding-left: 2%;
+    font-size: 3em;
+    align: center;
+
+    width: 30%;
+    display: block;
+    border-bottom-style: solid;
+}
+
+.bButton{
+    width: 20%;
+    font-family: "Century Gothic";
+    border-style: none;
+    border-radius: 20px;
+    padding:1% 4% 1% 4%;
+    margin: 4% 2% 1% 2%;
+    cursor: pointer;
+}
+.bButStart{
+    margin-left: 43%;
+}
+.bButWork{
+    margin-left: 34%;
+}
+
+.bSizeTime{
+    font-size: 5em;
+    margin: 0% 2% 0% 2%;
+}
+.bSizeTimeName{
+    font-size: 1em;
+}
+
+.bRefLTime{
+    width: 99%;
+    letter-spacing: .2rem;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+}
+
+.bTimeBlock{
+    display: inline-block;
+    margin: 0% 3% 0% 3%;
+}
+
+.bInput{
+    width: 99%;
+    letter-spacing: .2rem;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+}
+
+.bInpBlock{
+    width: 10%;
+    display: inline-block;
+    margin: 0% 2% 0% 2%;
+}
+
+.bInpW{
+    width: 96%;
+    text-align: center;
+    border: none;
+    letter-spacing: .2rem;
+    color: black;
+    font-family: "Century Gothic";
+}
+
+.bIconW{
+    width: 4%;
+    cursor: pointer;
+}
+
+.bMain{
+    height: 50%;
+}
+
+.footer{
+    width: calc(100% - 20px);
+    position: absolute;
+    margin-top: -80px;
+}

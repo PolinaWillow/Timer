@@ -1,0 +1,38 @@
+.Theme1_BackGround{
+    background-image: url(../img/image170-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Theme1_TitleBlock{
+    margin-bottom: 14%;
+    padding-left: 2%;
+    font-family: "Century Gothic";
+    color: rgba(105, 82, 82, 0.7);
+    font-size: 3em;
+
+    width: 25%;
+    display: block;
+    border-bottom-style: solid;
+    border-color: rgba(146, 129, 129, 0.5);
+}
+
+.Theme1_Button{
+    background-color: rgba(146, 129, 129, 0.21);
+    color: #695252;
+    font-size: 1em;
+    box-shadow: 0.3em 0.2em 6px rgba(122,122,122,0.5);
+}
+
+.Theme1_TimeBlock{
+    background-color: rgba(250, 235, 215, 0.35);
+    box-shadow: 0.3em 0.2em 6px rgba(122,122,122,0.5);
+    display: inline-block;
+    margin: 0% 2% 0% 2%;
+}
+
+.Theme1_ReflectionTime{
+    color: rgba(112, 89, 89, 0.78);
+}
